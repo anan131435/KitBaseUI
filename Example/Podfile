@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'KitBaseUI_Example' do
+  pod 'KitBaseUI', :path => '../'
+
+  target 'KitBaseUI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
